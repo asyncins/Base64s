@@ -1,0 +1,4 @@
+var N=null,E="",T="t",U="u",searchIndex={};
+var R=["string","result"];
+searchIndex["bases64"]={"doc":"The bases crate base on RFC4648","i":[[0,"bases","bases64",E,N,N],[3,"Bases","bases64::bases",E,N,N],[11,"encode",E,E,0,[[["self"],["str"]],[R[0]]]],[11,"encode_url",E,E,0,[[["self"],["str"]],[R[0]]]],[11,"decode",E,E,0,[[["self"],[R[0]]],[R[0]]]],[11,"decode_url",E,E,0,[[["self"],[R[0]]],[R[0]]]],[11,"from",E,E,0,[[[T]],[T]]],[11,"into",E,E,0,[[],[U]]],[11,"try_from",E,E,0,[[[U]],[R[1]]]],[11,"try_into",E,E,0,[[],[R[1]]]],[11,"borrow_mut",E,E,0,[[["self"]],[T]]],[11,"borrow",E,E,0,[[["self"]],[T]]],[11,"type_id",E,E,0,[[["self"]],["typeid"]]]],"p":[[3,"Bases"]]};
+initSearch(searchIndex);addSearchOptions(searchIndex);
