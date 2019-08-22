@@ -219,7 +219,7 @@ impl Bases{
         //
         let mut char_vec = self.contrary_mapping(value, true);
         let mut binary_vec: Vec<Vec<i32>> = Vec::new();
-        let mut binary_vec_vec: Vec<Vec<i32>> = Vec::new();
+        let binary_vec_vec: Vec<Vec<i32>> = Vec::new();
         let mut pad_number: Vec<i32> = Vec::new();
         for i in char_vec{
             if i == 65 as i32{
@@ -339,7 +339,7 @@ impl Bases{
 
     fn binary2dec(&self, value: Vec<String>, padding_number: i32) -> Vec<u8>{
         // binary trans to desc
-        let mut pad_number = padding_number / 8; // 根据补0数计算补位数
+        let pad_number = padding_number / 8; // 根据补0数计算补位数
         // String trans to Vec<i32>, because String can not slice or sort.
         let mut binary_six_vec: Vec<Vec<i32>> = Vec::new();
         for binary in value{
