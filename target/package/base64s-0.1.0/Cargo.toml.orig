@@ -1,0 +1,11 @@
+[package]
+name = "base64s"
+version = "0.1.0"
+authors = ["zenrusts <zenrusts@sina.com>"]
+edition = "2018"
+readme = "README.md"
+description = "Base64s base on RFC4648 基于 RFC4648 文档编写的 Base64 编码解码库"
+license = "MIT/Apache-2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

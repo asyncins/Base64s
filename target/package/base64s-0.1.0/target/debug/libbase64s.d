@@ -1,0 +1,1 @@
+/Users/async/Documents/GithubProject/RFCBase64/target/package/base64s-0.1.0/target/debug/libbase64s.rlib: /Users/async/Documents/GithubProject/RFCBase64/target/package/base64s-0.1.0/src/bases.rs /Users/async/Documents/GithubProject/RFCBase64/target/package/base64s-0.1.0/src/lib.rs
