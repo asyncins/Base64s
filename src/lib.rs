@@ -31,7 +31,7 @@
 //!
 //! Example
 //!
-//!     use bases64::bases::Bases;
+//!     use base64s::bases::Bases;
 //!     let bases = Bases{};
 //!     let res = bases.encode("Bruce Done say: Hi,I'm frank。");
 //!     assert_eq!(res, String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua+OAgg=="));
@@ -42,7 +42,7 @@
 //!
 //! Example
 //!
-//!     use bases64::bases::Bases;
+//!     use base64s::bases::Bases;
 //!     let bases = Bases{};
 //!     let res = bases.decode(String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua+OAgg=="));
 //!     assert_eq!(res, String::from("Bruce Done say: Hi,I'm frank。"));
@@ -55,7 +55,7 @@
 //!
 //! Example
 //!
-//!     use bases64::bases::Bases;
+//!     use base64s::bases::Bases;
 //!     let bases = Bases{};
 //!     let res = bases.encode_url("Bruce Done say: Hi,I'm frank。");
 //!     assert_eq!(res, String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua-OAgg=="));
@@ -66,7 +66,7 @@
 //!
 //! Example
 //!
-//!     use bases64::bases::Bases;
+//!     use base64s::bases::Bases;
 //!     let bases = Bases{};
 //!     let res = bases.decode_url(String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua-OAgg=="));
 //!     assert_eq!(res, String::from("Bruce Done say: Hi,I'm frank。"));

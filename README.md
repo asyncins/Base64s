@@ -1,7 +1,7 @@
 # bases
-Rust-lang: The bases crate base on RFC4648
+Rust-lang: The base64s crate base on RFC4648
 
-bases 库是基于规范文档 RFC4648 编写的库
+base64s 库是基于规范文档 RFC4648 编写的库
 
 This crate is very simple
 
@@ -40,7 +40,7 @@ Like decode(), this is for url
 Example
 
 ```
-use bases64::bases::Bases;
+use bases64s::bases::Bases;
 let bases = Bases{};
 let res = bases.encode("Bruce Done say: Hi,I'm frank。");
 assert_eq!(res, String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua+OAgg=="));
@@ -52,7 +52,7 @@ String to String, "QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua+OAgg==" -> "Bruce Done 
 Example
 
 ```
-use bases64::bases::Bases;
+use bases64s::bases::Bases;
 let bases = Bases{};
 let res = bases.decode(String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua+OAgg=="));
 assert_eq!(res, String::from("Bruce Done say: Hi,I'm frank。"));
@@ -65,7 +65,7 @@ For url.
 
 Example
 ```
-use bases64::bases::Bases;
+use bases64s::bases::Bases;
 let bases = Bases{};
 let res = bases.encode_url("Bruce Done say: Hi,I'm frank。");
 assert_eq!(res, String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua-OAgg=="));
@@ -76,7 +76,7 @@ For url.
 
 Example
 ```
-use bases64::bases::Bases;
+use bases64s::bases::Bases;
 let bases = Bases{};
 let res = bases.decode_url(String::from("QnJ1Y2UgRG9uZSBzYXk6IEhpLEknbSBmcmFua-OAgg=="));
 assert_eq!(res, String::from("Bruce Done say: Hi,I'm frank。"));
